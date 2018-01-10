@@ -957,16 +957,22 @@ SWIFT_CLASS("_TtC12HouseKeeping14ViewController")
 
 
 SWIFT_CLASS("_TtC12HouseKeeping15ViewController2")
-@interface ViewController2 : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface ViewController2 : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tblView;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull test;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull test2;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull test3;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull test4;
 - (void)viewDidLoad;
 - (void)getListJSON;
 - (NSDictionary<NSString *, id> * _Nullable)convertStringToDictionaryWithText:(NSString * _Nonnull)text;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

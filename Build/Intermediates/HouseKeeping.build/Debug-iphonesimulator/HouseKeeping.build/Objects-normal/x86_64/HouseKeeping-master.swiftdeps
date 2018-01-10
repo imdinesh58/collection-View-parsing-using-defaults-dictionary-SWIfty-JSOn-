@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "bb4281ff368aae055d1e0110c66a0a23"
-build_time: [568872098, 100357000]
+build_time: [568873731, 366643000]
 inputs:
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/DetailsPending.swift": [562418876, 0]
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/tblAssignTasksPending.swift": [565267247, 0]
@@ -41,7 +41,7 @@ inputs:
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/Helper Files.swift": [556207078, 0]
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/AllTasksCell.swift": [564049452, 0]
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/viewCompletedChecklist.swift": [565351097, 0]
-  "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/ViewController2.swift": [568870233, 0]
+  "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/ViewController2.swift": [568873642, 0]
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/EmployeeLoginHome.swift": [565338651, 0]
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/roomsCollectionViewCell.swift": [552468379, 0]
   "/Users/apple-1/Downloads/HouseKeeping/HouseKeeping/EmployeeLoginCell.swift": [563436505, 0]
